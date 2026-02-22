@@ -1,0 +1,28 @@
+# Python virtual environment
+ceh-env/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# MkDocs build output
+site/
+
+# macOS system files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp

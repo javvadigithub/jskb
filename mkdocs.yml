@@ -4,6 +4,9 @@ site_author: Srikanth Javvadi
 
 theme:
   name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - scheme: slate
       primary: Charcoal
@@ -45,7 +48,5 @@ plugins:
   - search
   - mermaid2
 
-font:
-  text: Inter
-  code: JetBrains Mono
+
 
