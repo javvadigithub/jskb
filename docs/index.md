@@ -1,21 +1,11 @@
-# 🔐 CEH Knowledge Base
+# JSK Knowledge Base
 
-Welcome to my structured cybersecurity documentation.
+This repository contains structured technical notes and lab observations across:
 
----
+- Security
+- Networking
+- Infrastructure
+- Linux systems
+- Operational analysis
 
-## 📚 Modules Covered
-
-- Footprinting
-- Scanning
-- Enumeration
-- System Hacking
-- Malware Analysis
-- Sniffing
-- Web Attacks
-- Wireless Attacks
-
----
-
-!!! info "Purpose"
-    This documentation is built while preparing for CEH and practical labs.
+These notes are maintained for personal reference and continuous learning.
