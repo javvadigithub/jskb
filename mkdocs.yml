@@ -1,5 +1,5 @@
-site_name: CEH Knowledge Base
-site_description: Offensive Security & CEH Study Notes
+site_name: JSK Knowledge Base
+site_description: A structured technical knowledge base spanning cybersecurity, networking, and infrastructure engineering.
 site_author: Srikanth Javvadi
 
 theme:
