@@ -54,12 +54,7 @@ markdown_extensions:
 plugins:
   - search
   - mermaid2
-    graph TD
-    A[fail2ban.conf] --> B[jail.conf]
-    B --> C[jail.local]
-    C --> D[jail.d/*.local]
-    D --> E[filter.d/*.conf]
-    D --> F[action.d/*.conf]
+
 
 extra:
   social:
