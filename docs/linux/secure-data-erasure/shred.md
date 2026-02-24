@@ -269,4 +269,4 @@ Mitigation:
 
 ## 10. Visual Overview
 
-![Shred Concept Diagram](../../assets/images/shred.png)
+[![Shred Concept Diagram](../../assets/images/shred.png)](../../assets/images/shred.png)
