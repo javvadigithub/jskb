@@ -270,5 +270,5 @@ Mitigation:
 ## 10. Visual Overview
 
 <p align="center">
-  <img src="../../assets/images/shred.png" width="900">
+  <img src="docs/assets/images/shred.png" width="900">
 </p>
