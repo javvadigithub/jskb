@@ -253,7 +253,7 @@ Mitigation:
 
 * Always verify device using `lsblk`
 * Use encryption-first strategy
-* Follow NIST SP 800-88 sanitization guidelines
+* Follow ***NIST SP 800-88*** sanitization guidelines
 
 ---
 
@@ -267,3 +267,8 @@ Mitigation:
 
 ---
 
+## 10. Visual Overview
+
+<p align="center">
+  <img src="../../assets/images/shred.png" width="900">
+</p>
