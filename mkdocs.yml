@@ -64,7 +64,8 @@ nav:
   - Home: index.md
 
   - Linux:
-      - File System: linux/file-system.md
+      - Overview: linux/index.md
+      - File System: linux/chmod.md
       - Secure Deletion (Shred): linux/secure-data-erasure/shred.md
 
   - Networking:
