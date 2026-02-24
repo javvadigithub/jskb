@@ -67,7 +67,7 @@ nav:
 
   - Linux:
       - File System: linux/file-system.md
-      - Secure Deletion (Shred): linux/shred.md
+      - Secure Deletion (Shred): linux/secure-data-erasure/shred/
 
   - Networking:
       - TCP/IP Model: networking/tcpip.md
