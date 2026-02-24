@@ -4,5 +4,5 @@ This section covers Linux internals, file systems, permissions, and secure data 
 
 ## Topics
 
-- File System
-- Secure Data Erasure
+- [File System](linux/chmod.md)
+- [Secure Data Erasure](secure-data-erasure/shred.md)

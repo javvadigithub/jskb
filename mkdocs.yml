@@ -54,6 +54,12 @@ markdown_extensions:
 plugins:
   - search
   - mermaid2
+    graph TD
+    A[fail2ban.conf] --> B[jail.conf]
+    B --> C[jail.local]
+    C --> D[jail.d/*.local]
+    D --> E[filter.d/*.conf]
+    D --> F[action.d/*.conf]
 
 extra:
   social:
@@ -67,6 +73,7 @@ nav:
       - Overview: linux/index.md
       - File System: linux/chmod.md
       - Secure Deletion (Shred): linux/secure-data-erasure/shred.md
+      - Fail2Ban: linux/fail2ban.md
 
   - Networking:
       - TCP/IP Model: networking/tcpip.md
