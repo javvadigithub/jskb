@@ -4,5 +4,5 @@ This section covers Linux internals, file systems, permissions, and secure data 
 
 ## Topics
 
-- [Fail2ban](fail2ban.md)
+- [Fail2Ban](fail2ban.md)
 - [Secure Data Erasure](secure-data-erasure/shred.md)
