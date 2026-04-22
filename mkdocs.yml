@@ -42,7 +42,7 @@ extra_css:
 nav:
   - Home: index.md
   - CEH Modules:
-      - Module 01: ceh-modules/01-introduction.md
+      - Module 01: ceh/01-introduction.md
   - Labs:
       - Overview: labs/index.md
   - Networking:
