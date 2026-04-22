@@ -52,8 +52,7 @@ This knowledge base is built to:
 - Monitoring
 - Incident response basics
 
-### CEH Modules:
-- Overview: ceh/index.md
-- Module 01: ceh/01-introduction.md
-- Module 02: ceh/02-footprinting.md
-- Module 03: ceh/03-scanning.md
+### CEH Modules
+- 01-introduction.md
+- 02-footprinting.md
+- 03-scanning.md
