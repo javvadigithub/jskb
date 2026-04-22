@@ -1,90 +1,53 @@
 site_name: JSK Knowledge Base
-site_description: A structured technical knowledge base spanning cybersecurity, networking, and infrastructure engineering.
-site_author: Srikanth Javvadi
 site_url: https://javvadigithub.github.io/jskb/
-
-repo_name: JSK-Knowledge-Base
-repo_url: https://github.com/javvadigithub
-edit_uri: edit/main/docs/
+site_description: Personal technical notes on security, networking, and infrastructure.
+site_author: Srikanth Javvadi
 
 theme:
   name: material
-  font:
-    text: Inter
-    code: JetBrains Mono
   palette:
+    - scheme: slate
+      primary: black
+      accent: teal
     - scheme: default
       primary: blue grey
       accent: teal
   features:
-    - navigation.instant
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
-    - navigation.tracking
-    - toc.integrate
     - search.highlight
-    - search.share
     - content.code.copy
-    - content.tabs.link
-    - content.action.edit
-    - content.action.view
-markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - tables
-  - footnotes
-  - toc:
-      permalink: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.keys
-  - pymdownx.tasklist:
-      custom_checkbox: true
-
+    - toc.integrate
 
 plugins:
   - search
   - mermaid2
 
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
 
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/javvadigithub
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
-
+  - CEH Modules:
+      - Module 01: ceh-modules/01-introduction.md
+  - Labs:
+      - Overview: labs/index.md
+  - Networking:
+      - Overview: networking/index.md
   - Linux:
       - Overview: linux/index.md
-      - File System: linux/chmod.md
-      - Secure Deletion (Shred): linux/secure-data-erasure/shred.md
-      - Fail2Ban: linux/fail2ban.md
-
-  - Networking:
-      - TCP/IP Model: networking/tcpip.md
-      - TCPDump Analysis: networking/tcpdump.md
-
-  - Forensics:
-      - MBR vs GPT: forensics/mbr-gpt.md
-      - Disk Analysis: forensics/disk-analysis.md
-
-  - Web Security:
-      - XSS: web-security/xss.md
-      - SQL Injection: web-security/sqli.md
-
-  - Tools:
-      - Nmap: tools/nmap.md
-      - Burp Suite: tools/burp.md
-
-  - Labs:
-      - Lab 01: labs/lab-01.md
+  - Infra Notes:
+      - Overview: infra/index.md
