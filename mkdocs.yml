@@ -46,8 +46,8 @@ nav:
   - Labs:
       - Overview: labs/index.md
   - Networking:
-      - Overview: networking/index.md
-      - Nmap Cheat Sheet: networking/nmap.md
+      - Overview: docs/networking/index.md
+      - Nmap Cheat Sheet: docs/networking/nmap.md
   - Linux:
       - Overview: linux/index.md
   - Infra Notes:
