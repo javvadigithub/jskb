@@ -34,6 +34,7 @@ This knowledge base is built to:
 - Packet analysis
 - tcpdump & Wireshark
 - Proxy analysis
+- Nmap
 
 ### Digital Forensics
 - MBR vs GPT
